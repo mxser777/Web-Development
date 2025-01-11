@@ -1,0 +1,43 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.background_section {
+    background-color: rgb(63, 100, 100);
+    background-image: url(GettyImages-680783485-b0c48be.jpg);
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: rgb(0, 243, 187);
+}
+
+.gradient_section {
+    background-image: linear-gradient(to right, blue, purple, rgb(224, 120, 238));
+    height: 200px
+}
+
+.animation_section {
+    background-color: aquamarine;
+    height: 200px;
+    animation: myanimation 6s infinite;
+}
+
+@keyframes myanimation {
+    0% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: blueviolet
+    }
+
+    100% {
+        background-color: deeppink
+    }
+}
