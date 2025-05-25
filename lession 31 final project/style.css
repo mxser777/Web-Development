@@ -35,3 +35,69 @@ body {
     color: rgb(14, 14, 161);
     background-color: white;
 }
+
+.container {
+    display: flex;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.content article,
+.sidebar_widget {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgba(128, 128, 128, 0.334);
+}
+
+.content img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sidebar_widget ul {
+    list-style: square;
+}
+
+.sidebar_widget ul li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.sidebar_widget ul li a :hover {
+    font-weight: bold;
+}
+
+.sidebar_widget h3 {
+    text-decoration: underline;
+}
+
+form {
+    color: darkslategray;
+    display: grid;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgba(210, 209, 174, 0.546);
+}
+
+form button {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: center;
+}
